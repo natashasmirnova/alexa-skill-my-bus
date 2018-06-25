@@ -1,0 +1,33 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "my bus",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "BusTimeIntent",
+                    "slots": [],
+                    "samples": [
+                        "when is my next bus",
+                        "next bus",
+                        "what time is my bus",
+                        "get next scheduled bus",
+                        "bus times"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
